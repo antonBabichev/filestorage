@@ -22,7 +22,7 @@ EF: FileStorage.Repository.EF
 MySQL: is MySqk database  
 
 # How to run
-1. You need to create MySql db locally, I used MySql docker image.
+1. You need to create MySql db locally, I used MySql docker image. And create folder table with ID, and Path columns.
 2. In FileStorage.Net/FileStorage.Web.ApiControllers/App.config file you specify connection string to your MySql DB.
 3. dotnet run FileStorage.Net/FileStorage.Web.ApiControllers. url is defined in FileStorage.Net/FileStorage.Web.ApiControllers/appsettings.Development.json
 4. Go to FileStorage.Net/FileStorage.React.Server and npm i.
