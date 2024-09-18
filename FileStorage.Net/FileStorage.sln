@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStorage.Models", ".\FileStorage.Models\FileStorage.Models.csproj", "{0A925CE1-6C5F-434D-B99A-840AAE54BFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Repository", "FileStorage.Repository\FileStorage.Repository.csproj", "{ABC33397-E7CA-4651-A50C-BA9ABC18AA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Repository.EF.UnitTests", "FileStorage.Repository.EF.UnitTests\FileStorage.Repository.EF.UnitTests.csproj", "{43F5FF76-2683-4F8B-8463-A3A5CA619EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.React.Server", "FileStorage.React.Server\FileStorage.React.Server.csproj", "{4F892364-A88B-4AC4-B4BE-D277A26F0663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Repository.EF", "FileStorage.Repository.EF\FileStorage.Repository.EF.csproj", "{F5317430-5840-4245-B116-34B791208E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Web.ApiControllers", "FileStorage.Web.ApiControllers\FileStorage.Web.ApiControllers.csproj", "{2EAD3636-C113-4AFC-8C11-D277AD28D846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A925CE1-6C5F-434D-B99A-840AAE54BFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A925CE1-6C5F-434D-B99A-840AAE54BFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A925CE1-6C5F-434D-B99A-840AAE54BFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A925CE1-6C5F-434D-B99A-840AAE54BFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC33397-E7CA-4651-A50C-BA9ABC18AA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC33397-E7CA-4651-A50C-BA9ABC18AA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC33397-E7CA-4651-A50C-BA9ABC18AA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC33397-E7CA-4651-A50C-BA9ABC18AA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F5FF76-2683-4F8B-8463-A3A5CA619EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F5FF76-2683-4F8B-8463-A3A5CA619EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F5FF76-2683-4F8B-8463-A3A5CA619EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F5FF76-2683-4F8B-8463-A3A5CA619EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F892364-A88B-4AC4-B4BE-D277A26F0663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F892364-A88B-4AC4-B4BE-D277A26F0663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F892364-A88B-4AC4-B4BE-D277A26F0663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F892364-A88B-4AC4-B4BE-D277A26F0663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5317430-5840-4245-B116-34B791208E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5317430-5840-4245-B116-34B791208E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5317430-5840-4245-B116-34B791208E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5317430-5840-4245-B116-34B791208E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAD3636-C113-4AFC-8C11-D277AD28D846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAD3636-C113-4AFC-8C11-D277AD28D846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAD3636-C113-4AFC-8C11-D277AD28D846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAD3636-C113-4AFC-8C11-D277AD28D846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03635CD1-875E-462B-A297-99AA79CE6927}
+	EndGlobalSection
+EndGlobal

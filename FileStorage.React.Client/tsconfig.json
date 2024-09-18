@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"declaration": true,
+    	"jsx": "react",
+		"outDir": "./dist/",
+		"noImplicitAny": true,
+		"module": "ES6",
+		"target": "ES6",
+		"moduleResolution": "Node",
+		"esModuleInterop": true 
+	},
+    "include": ["./package.json", "./src"]
+}

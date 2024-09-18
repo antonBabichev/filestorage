@@ -1,0 +1,36 @@
+{
+  "name": "@filestorage/client",
+  "version": "1.0.0",
+  "description": "React client for filestorage app",
+  "main": "dist/src/index.js",
+  "author": "Anton Babichev",
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
+    "@mui/material": "6.1.0",
+    "@types/react": "18.3.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "rimraf": "6.0.1",
+    "sass": "1.69.1",
+    "sass-loader": "13.0.2",
+    "ts-loader": "9.5.1",
+    "typescript": "5.6.2"
+  },
+  "scripts": {
+    "prebuild": "rimraf ./dist",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
+    "@mui/material": "6.1.0",
+    "@types/react": "18.3.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
